@@ -146,17 +146,13 @@ $$
 The direction vector $(1,1)$ is normalized to:
 
 $$
-\hat{u}
-=
-\left( \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}} \right)
+\hat{u} = \left( \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}} \right)
 $$
 
 Then the directional derivative is calculated by:
 
 $$
-D_{\vec{u}}f(1,2)
-=
-\nabla f(1,2)\cdot \hat{u}
+D_{\vec{u}}f(1,2) = \nabla f(1,2)\cdot \hat{u}
 $$
 
 If the result is positive, the surface increases in the chosen direction.  
