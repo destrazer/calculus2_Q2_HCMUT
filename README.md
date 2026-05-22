@@ -29,13 +29,6 @@ The project uses the following Python libraries:
 | `plotly` | Creates interactive 3D and 2D graphs |
 | `streamlit-keyup` | Supports real-time input behavior in Streamlit |
 
-The following Python libraries are also imported in the source code, but they are built-in libraries and do not need to be installed separately:
-
-| Library | Purpose |
-|---|---|
-| `math` | Handles basic mathematical operations |
-| `html` | Escapes text safely when displaying invalid expressions |
-
 ## 3. How to Run the Program
 
 ### 3.1 Clone the Repository
