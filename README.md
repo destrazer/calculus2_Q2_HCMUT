@@ -1,12 +1,12 @@
 # calculus2_Q2_HCMUT
 The code for answering the question 2 in calculus 2 from HK252-MT1005-CC04
 
-This project is a Streamlit application for calculating and visualizing the directional derivative of a two-variable function $f(x, y)$.  The application also can display the geometric meaning of the directional derivative through interactive 3D and 2D graphs.
+This project is a Streamlit application for calculating and visualizing the directional derivative of a two-variable function $f(x, y)$. The application also can display the geometric meaning of the directional derivative through interactive 3D and 2D graphs.
 
 ## 1. What This Application Can Do
 
 - Evaluate the function value $f(x_0,y_0)$ at a selected point.
-- Calculate the directional derivati qve:
+- Calculate the directional derivative:
 
 $$D_{\vec{u}}f(x_0,y_0)=\nabla f(x_0,y_0)\cdot \hat{u}$$
 
@@ -139,21 +139,28 @@ $$f_y(x,y)=2y$$
 
 At $M_0=(1,2)$, the gradient vector is:
 
-$\nabla f(1,2)=(2,4)$
+$$
+\nabla f(1,2)=(2,4)
+$$
+
 The direction vector $(1,1)$ is normalized to:
 
-$\hat{u}
+$$
+\hat{u}
 =
 \left(
 \frac{1}{\sqrt{2}},
 \frac{1}{\sqrt{2}}
-\right)$
+\right)
+$$
 
 Then the directional derivative is calculated by:
 
-$D_{\vec{u}}f(1,2)
+$$
+D_{\vec{u}}f(1,2)
 =
-\nabla f(1,2)\cdot \hat{u}$
+\nabla f(1,2)\cdot \hat{u}
+$$
 
 If the result is positive, the surface increases in the chosen direction.  
 If the result is negative, the surface decreases in the chosen direction.  
