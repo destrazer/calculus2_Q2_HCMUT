@@ -43,7 +43,7 @@ The following Python libraries are also imported in the source code, but they ar
 Open the terminal and run the following command:
 
 ```bash
-git clone https://github.com/destrazer/calculus2_Q2_HCMUT.git
+git clone https://github.com/nhnk21/calculus2_Q2_HCMUT.git
 ```
 
 After the repository is downloaded, move into the project folder:
