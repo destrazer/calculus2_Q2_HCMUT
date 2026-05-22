@@ -148,10 +148,7 @@ The direction vector $(1,1)$ is normalized to:
 $$
 \hat{u}
 =
-\left(
-\frac{1}{\sqrt{2}},
-\frac{1}{\sqrt{2}}
-\right)
+\left( \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}} \right)
 $$
 
 Then the directional derivative is calculated by:
