@@ -38,29 +38,46 @@ The following Python libraries are also imported in the source code, but they ar
 
 ## 3. How to Run the Program
 
-To run this program, the required Python libraries must be installed first.  
-The recommended way is to create a `requirements.txt` file so that all dependencies can be installed automatically.
+### 3.1 Clone the Repository
 
+Open the terminal and run the following command:
 
-### 3.1 Install Required Libraries
+```bash
+git clone https://github.com/destrazer/calculus2_Q2_HCMUT.git
+```
 
-Open the terminal in the project folder and run:
+After the repository is downloaded, move into the project folder:
+
+```bash
+cd calculus2_Q2_HCMUT
+```
+
+If you have already downloaded or cloned the repository, you can skip this step and open
+the project folder directly.
+
+### 3.2 Install Required Libraries
+
+The required Python libraries are listed in the `requirements.txt` file.
+
+To install all dependencies automatically, run:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This command automatically installs all required libraries listed in `requirements.txt`.
+This command installs the libraries needed to run the application, including Streamlit,
+SymPy, NumPy, Plotly, and streamlit-keyup.
 
-### 3.2 Run the Application Locally
+### 3.3 Run the Application Locally
 
-After installing the libraries, run the Streamlit application with:
+After installing the required libraries, run the Streamlit application with:
 
 ```bash
 streamlit run calculus2-Q2.py
 ```
 
-If the command runs successfully, Streamlit will start a local server and open the application in the browser.
+If the command runs successfully, Streamlit will start a local server and open the
+application in your browser.
 
 The local address is usually:
 
@@ -68,9 +85,10 @@ The local address is usually:
 http://localhost:8501
 ```
 
-If the browser does not open automatically, copy this address and paste it into the browser manually.
+If the browser does not open automatically, copy this address and paste it into your
+browser manually.
 
-### 3.3 Use the Application
+### 3.4 Use the Application
 
 After opening the application, users can:
 
@@ -82,7 +100,8 @@ After opening the application, users can:
    x^2 + y^2
    ```
 
-2. Change the direction vector $\vec{u}=(u_1,u_2)$ as it will be (1,1) by default.
+2. Change the direction vector $\vec{u}=(u_1,u_2)$. By default, the direction vector is
+   set to $(1,1)$.
 
    Example:
 
@@ -112,8 +131,8 @@ The application will then show:
 - the directional derivative,
 - a short interpretation of the result,
 - a 3D graph of the surface,
-- a tangent plane,
-- a direction curve on the surface,
+- the tangent plane,
+- the direction curve on the surface,
 - and a 2D cross-section graph.
 
 ## 4. Example
